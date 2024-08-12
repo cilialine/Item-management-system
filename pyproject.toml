@@ -1,0 +1,22 @@
+[project]
+name = "item-management-system"
+version = "1.0"
+description = "a item management system"
+authors = [
+    {name = "cicila", email = "1136469680@qq.com"},
+]
+dependencies = [
+    "fastapi[all]>=0.112.0",
+    "sqlalchemy>=2.0.32",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true

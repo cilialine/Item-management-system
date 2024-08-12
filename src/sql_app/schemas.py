@@ -13,7 +13,7 @@ class CreateItem(ItemBase):
 
 
 class ItemUpdate(ItemBase):
-    __pydantic_fields_set__
+    pass
 
 class SItem(ItemBase):
     id: int
